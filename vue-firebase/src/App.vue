@@ -1,12 +1,18 @@
 <template>
-  <div id="app" class="principal">
+  <div
+    id="app"
+    class="principal"
+  >
     <span>App</span>
+    <entrada></entrada>
   </div>
 </template>
 
 <script>
-export default {
+import Entrada from "@/views/Entrada.vue";
 
+export default {
+  components: { Entrada }
 }
 </script>
 
